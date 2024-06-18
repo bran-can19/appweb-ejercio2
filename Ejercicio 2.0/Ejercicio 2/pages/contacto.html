@@ -37,6 +37,9 @@
             <label for="nombre">Escribe tu nombre: </label>
             <input type="text" id="nombre" name="nombre"  autocomplete="on" required>
             <br><br>
+            <label for="email">Escribe tu correo electrónico:</label>
+            <input type="mail" id="mail" name="mail" autocomplete="on" required>
+            <br><br>
             <!-- creacion  de una lista deesplegable -->
              <label for="intereses">¿Qué te interesa del blog?</label>
             <select name="interes" id="">interes
@@ -64,13 +67,22 @@
             <label for="no">No</label>
             <br>
             <input type="radio" name="gusto" id="si" value="no_se">
-            <label for="No_se">No se XD</label>
+            <label for="No_se">Nose XD</label>
             <br>
             <br><br>
+            <!-- Casilla de verificaion o check box -->
+             <label for="lenguaje">Seleciona tus lenguaje favorito..</label><br>
+             <input type="checkbox" id="leng1" value="java">
+             <label for="leng1">java</label><br>
+             <input type="checkbox" id="leng2" value="java">
+             <label for="leng">Python</label><br>
+             <input type="checkbox" id="leng3" value="java">
+             <label for="leng">C++</label><br>
+             <br><br>
+             <label for="calendario">¡Seleciona una Fecha!</label>
+             <input type="datetime-local" name="calendario" id="calendario">
+             <br><br>
 
-            <label for="email">Escribe tu correo electrónico:</label>
-            <input type="mail" id="mail" name="mail" autocomplete="on" required>
-            <br><br>
             <label for="mensaje">Escribe tu mensaje: </label>
             <textarea name="mensaje" id="mensaje"></textarea>
             <button class="blog-button"  type="submit">
