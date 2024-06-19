@@ -6,7 +6,6 @@
     <title> Contáctame</title>
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
     <link rel="stylesheet" type="text/css" href="../styles/font/font/flaticon.css">
-    
 </head>
 <body>
     <header>
@@ -41,7 +40,7 @@
             <input type="mail" id="mail" name="mail" autocomplete="on" required>
             <br><br>
             <!-- creacion  de una lista deesplegable -->
-             <label for="intereses">¿Qué te interesa del blog?</label>
+            <label for="intereses">¿Qué te interesa del blog?</label>
             <select name="interes" id="">interes
                 <option value="historia">¡Historia de la computacion!</option>
                 <option value="noticias">¡Últimas noticias!</option>
@@ -49,14 +48,14 @@
             </select>
             <br><br>
             <!-- Otra forma de crear una lista -->
-             <label for="Seleciona">Seleciona el gadget que te interese:</label>
-             <input list="gadgets">
-             <datalist id="gadgets">
+            <label for="Seleciona">Seleciona el gadget que te interese:</label>
+            <input list="gadgets">
+            <datalist id="gadgets">
                 <option value="smartwach">Smartwach</option>
                 <option value="Weareables">Dispositivos vestibles</option>
                 <option value="Gafas">Gafas de realidad aumentada</option>
-             </datalist>
-             <br><br>
+            </datalist>
+            <br><br>
             <!-- Botones de opciono radio de boton -->
             <label for="¿Te gusta este blog?">¿Te gusta el blog?</label>
             <br>
@@ -71,17 +70,39 @@
             <br>
             <br><br>
             <!-- Casilla de verificaion o check box -->
-             <label for="lenguaje">Seleciona tus lenguaje favorito..</label><br>
-             <input type="checkbox" id="leng1" value="java">
-             <label for="leng1">java</label><br>
-             <input type="checkbox" id="leng2" value="java">
-             <label for="leng">Python</label><br>
-             <input type="checkbox" id="leng3" value="java">
-             <label for="leng">C++</label><br>
-             <br><br>
-             <label for="calendario">¡Seleciona una Fecha!</label>
-             <input type="datetime-local" name="calendario" id="calendario">
-             <br><br>
+            <label for="lenguaje">Seleciona tus lenguaje favorito..</label><br>
+            <input type="checkbox" id="leng1" value="java">
+            <label for="leng1">java</label><br>
+            <input type="checkbox" id="leng2" value="java">
+            <label for="leng">Python</label><br>
+            <input type="checkbox" id="leng3" value="java">
+            <label for="leng">C++</label><br>
+            <br><br>
+            <label for="calendario">¡Seleciona una Fecha!</label>
+            <input type="datetime-local" name="calendario" id="calendario">
+            <br><br>
+
+            <!-- Otro tipo de calendario:Para mostrar unicamente hora -->
+            <label for="hora">Hora:</label>
+            <input type="time" name="hora" id="hora">
+            <br><br>
+            <!-- Otro tipo de calendario:Para mostrar unicamente dia -->
+            <label for="dia">Día:</label>
+            <input type="date" name="fecha" id="fecha">
+            <br><br>
+            <!-- Otro tipo de calendario:Para mostrar unicamente para semana -->
+            <label for="semna">Semana:</label>
+            <input type="week" name="Semana" id="semana">
+            <br><br>
+            <!-- Otro tipo de calendario:Para mostrar unicamente para mes-->
+            <label for="Mes">Mes:</label>
+            <input type="month" name="mes" id="mes">
+            <br><br>
+
+
+
+
+
 
             <label for="mensaje">Escribe tu mensaje: </label>
             <textarea name="mensaje" id="mensaje"></textarea>
